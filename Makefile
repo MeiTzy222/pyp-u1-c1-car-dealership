@@ -29,7 +29,7 @@ step_9:
 
 step_10:
 	py.test test_contracts.py -k test_buy_contract_creation
-
+	
 step_11:
 	py.test test_contracts.py -k test_lease_contract_creation
 
